@@ -47,12 +47,14 @@ function obtemDados(collection) {
         tabela.innerHTML = ''
         let cabecalho = tabela.insertRow()
         cabecalho.className = 'table-dark'
+        
         cabecalho.insertCell().textContent = 'Descrição'
-        cabecalho.insertCell().textContent = 'Unidade'
-        cabecalho.insertCell().textContent = 'Quantidade'
         cabecalho.insertCell().textContent = 'Data de validade'
+        cabecalho.insertCell().textContent = 'Unidade'
+        cabecalho.insertCell().textContent = 'quantidade'
         cabecalho.insertCell().textContent = 'Valor(R$)'
         cabecalho.insertCell().textContent = 'Categoria'
+        cabecalho.insertCell().textContent = ''
 
         snapshot.forEach(item => {
             let db = item.ref.path.pieces_[0]
