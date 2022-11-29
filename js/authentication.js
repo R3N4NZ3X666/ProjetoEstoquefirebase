@@ -76,7 +76,7 @@ function verificaLogado() {
       if (user) {
         console.log('Usuário logado!')
       } else {
-        console.log('Usuário não logado. Redirecionando...')
+        alert('Usuário não logado. Redirecionando...')
         window.location.href = baseURL
       }
     })
