@@ -53,7 +53,6 @@ function obtemDados(collection) {
         cabecalho.insertCell().textContent = 'Data de validade'
         cabecalho.insertCell().textContent = 'Valor(R$)'
         cabecalho.insertCell().textContent = 'Categoria'
-        cabecalho.insertCell().textContent = ''
 
         snapshot.forEach(item => {
             let db = item.ref.path.pieces_[0]
