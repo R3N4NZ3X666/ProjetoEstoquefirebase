@@ -51,7 +51,7 @@ function obtemDados(collection) {
         cabecalho.insertCell().textContent = 'Descrição'
         cabecalho.insertCell().textContent = 'Data de validade'
         cabecalho.insertCell().textContent = 'Unidade'
-        cabecalho.insertCell().textContent = 'quantidade'
+        cabecalho.insertCell().textContent = 'Quantidade'
         cabecalho.insertCell().textContent = 'Valor(R$)'
         cabecalho.insertCell().textContent = 'Categoria'
         cabecalho.insertCell().textContent = ''
